@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+/* Navigation */
+
+.nav-container {
+    background: #fffffa;
+    box-shadow: 0px 8px 24px rgba ( 0, 0, 0, 0.1 );
+    height: 72px;
+
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 72px;
+}
+
+nav ul {
+    display: flex;
+
+}
+
+nav .logo {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 64px;
+    color: #021718;
+}
+
+.nav-items li {
+    list-style: none;
+    margin-right: 100px;
+
+}
+
+.nav-items li:nth-last-of-type(1) {
+    margin: 0;
+}
+
+.nav-items li a {
+    color: #021718;
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+}
+
+/* Header */
+.header-container {
+    background: #f5a05c url('img/');
+    background: repeat: no-repeat;
+    background-position: :right;
+    background-size: contain;
+    height: calc(100vh- 72px);
+    display: flex;
+    align-items: center;
+
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+header h1{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 75px;
+    /* indetical to box height */
+
+    color: #021718;
+
+
+}
+ header p {
+    font-size: 24px;
+    line-height: 42px;
+    color- #021718;
+    width: 418px;
+
+    margin-bottom: 48px;
+ }
+
+header a {
+    color: #fffffa
+    font-size: 25px;
+    text-decoration: none;
+
+    background: #01847f;
+    border-radius: 8px;
+    padding: 12px 48px;
+}
+/* Hidden Items */
+
+
+.search-box {
+    display: none;
+
+
+}
